@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelStay - Temukan Penginapan Impianmu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-home"></i>
+                <span>TravelStay</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Beranda</a>
+                <a href="#">Penginapan</a>
+                <a href="#">Pengalaman</a>
+                <a href="#">Tentang</a>
+            </div>
+            <div class="nav-right">
+                <span class="host">Jadi Host</span>
+                <div class="globe"><i class="fas fa-globe"></i></div>
+                <div class="user-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Temukan Tempat Menginap yang Sempurna</h1>
+            <p>Jelajahi rumah, apartemen, dan penginapan unik di seluruh dunia</p>
+            
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <div class="search-item">
+                    <label>Lokasi</label>
+                    <input type="text" placeholder="Kemana saja">
+                </div>
+                <div class="divider"></div>
+                <div class="search-item">
+                    <label>Check-in</label>
+                    <input type="text" placeholder="Tambahkan tanggal">
+                </div>
+                <div class="divider"></div>
+                <div class="search-item">
+                    <label>Check-out</label>
+                    <input type="text" placeholder="Tambahkan tanggal">
+                </div>
+                <div class="divider"></div>
+                <div class="search-item">
+                    <label>Tamu</label>
+                    <input type="text" placeholder="Tambahkan tamu">
+                </div>
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <div class="category-list">
+                <div class="category-item active">
+                    <i class="fas fa-fire"></i>
+                    <span>Populer</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-umbrella-beach"></i>
+                    <span>Pantai</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-mountain"></i>
+                    <span>Pegunungan</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-swimming-pool"></i>
+                    <span>Kolam Renang</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-campground"></i>
+                    <span>Camping</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-tractor"></i>
+                    <span>Pedesaan</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-city"></i>
+                    <span>Kota</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-water"></i>
+                    <span>Danau</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-skiing"></i>
+                    <span>Ski</span>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-tree"></i>
+                    <span>Hutan</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Listings Section -->
+    <section class="listings">
+        <div class="container">
+            <h2 class="section-title">Penginapan Populer</h2>
+            <div class="listings-grid">
+                
+                <!-- Card 1 -->
+                <div class="listing-card">
+                    <div class="card-image">
+                        <img src="images/foto1.jpg" alt="Villa Bali">
+                        <div class="heart-icon"><i class="far fa-heart"></i></div>
+                        <div class="guest-fav">Favorit Tamu</div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>Ubud, Bali</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.95</span>
+                            </div>
+                        </div>
+                        <p class="distance">1.234 km jauhnya</p>
+                        <p class="dates">1-6 Juni</p>
+                        <p class="price"><strong>Rp 2.500.000</strong> / malam</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="listing-card">
+                    <div class="card-image">
+                        <img src="images/foto2.jpg" alt="Villa Lombok">
+                        <div class="heart-icon"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>Kuta, Lombok</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.88</span>
+                            </div>
+                        </div>
+                        <p class="distance">1.456 km jauhnya</p>
+                        <p class="dates">5-10 Juli</p>
+                        <p class="price"><strong>Rp 1.800.000</strong> / malam</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="listing-card">
+                    <div class="card-image">
+                        <img src="images/foto3.jpg" alt="Villa Jogja">
+                        <div class="heart-icon"><i class="far fa-heart"></i></div>
+                        <div class="guest-fav">Favorit Tamu</div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>Yogyakarta</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.92</span>
+                            </div>
+                        </div>
+                        <p class="distance">450 km jauhnya</p>
+                        <p class="dates">12-17 Agustus</p>
+                        <p class="price"><strong>Rp 1.200.000</strong> / malam</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="listing-card">
+                    <div class="card-image">
+                        <img src="images/foto4.jpg" alt="Villa Bandung">
+                        <div class="heart-icon"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>Bandung</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.85</span>
+                            </div>
+                        </div>
+                        <p class="distance">150 km jauhnya</p>
+                        <p class="dates">20-25 Juni</p>
+                        <p class="price"><strong>Rp 950.000</strong> / malam</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="listing-card">
+                    <div class="card-image">
+                        <img src="images/foto5.jpg" alt="Villa Malang">
+                        <div class="heart-icon"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>Malang, Jawa Timur</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.78</span>
+                            </div>
+                        </div>
+                        <p class="distance">780 km jauhnya</p>
+                        <p class="dates">3-8 Juli</p>
+                        <p class="price"><strong>Rp 1.500.000</strong> / malam</p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="listing-card">
+                    <div class="card-image">
+                        <img src="images/foto6.jpg" alt="Villa Raja Ampat">
+                        <div class="heart-icon"><i class="far fa-heart"></i></div>
+                        <div class="guest-fav">Favorit Tamu</div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>Raja Ampat</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.98</span>
+                            </div>
+                        </div>
+                        <p class="distance">2.890 km jauhnya</p>
+                        <p class="dates">15-20 Agustus</p>
+                        <p class="price"><strong>Rp 3.200.000</strong> / malam</p>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="listing-card">
+                    <div class="card-image">
+                        <img src="images/foto7.jpg" alt="Villa Bromo">
+                        <div class="heart-icon"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>Gunung Bromo</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.90</span>
+                            </div>
+                        </div>
+                        <p class="distance">820 km jauhnya</p>
+                        <p class="dates">1-4 September</p>
+                        <p class="price"><strong>Rp 1.100.000</strong> / malam</p>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="listing-card">
+                    <div class="card-image">
+                        <img src="images/foto8.jpg" alt="Villa Labuan Bajo">
+                        <div class="heart-icon"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>Labuan Bajo</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.87</span>
+                            </div>
+                        </div>
+                        <p class="distance">1.678 km jauhnya</p>
+                        <p class="dates">10-15 Oktober</p>
+                        <p class="price"><strong>Rp 2.800.000</strong> / malam</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Pengalaman yang Menakjubkan</h2>
+            <div class="featured-grid">
+                <div class="featured-card large">
+                    <img src="images/foto1.jpg" alt="Featured">
+                    <div class="featured-overlay">
+                        <span class="tag">Koleksi</span>
+                        <h3>Liburan Pantai Terbaik</h3>
+                        <p>Temukan pantai-pantai indah di Indonesia</p>
+                    </div>
+                </div>
+                <div class="featured-card">
+                    <img src="images/foto3.jpg" alt="Featured">
+                    <div class="featured-overlay">
+                        <span class="tag">Petualangan</span>
+                        <h3>Wisata Alam</h3>
+                    </div>
+                </div>
+                <div class="featured-card">
+                    <img src="images/foto5.jpg" alt="Featured">
+                    <div class="featured-overlay">
+                        <span class="tag">Kuliner</span>
+                        <h3>Tour Kuliner</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Tentang</h4>
+                    <ul>
+                        <li><a href="#">Cara Kerja TravelStay</a></li>
+                        <li><a href="#">Ruang Berita</a></li>
+                        <li><a href="#">Investor</a></li>
+                        <li><a href="#">TravelStay Plus</a></li>
+                        <li><a href="#">TravelStay Luxe</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Komunitas</h4>
+                    <ul>
+                        <li><a href="#">Aksesibilitas</a></li>
+                        <li><a href="#">Referensi Tamu</a></li>
+                        <li><a href="#">TravelStay.org</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Host</h4>
+                    <ul>
+                        <li><a href="#">Jadi Host</a></li>
+                        <li><a href="#">AirCover untuk Host</a></li>
+                        <li><a href="#">Sumber Daya Hosting</a></li>
+                        <li><a href="#">Forum Komunitas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Dukungan</h4>
+                    <ul>
+                        <li><a href="#">Pusat Bantuan</a></li>
+                        <li><a href="#">Opsi Pembatalan</a></li>
+                        <li><a href="#">Laporkan Masalah</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-left">
+                    <p>© 2026 TravelStay, Inc.</p>
+                    <a href="#">Privasi</a>
+                    <a href="#">Ketentuan</a>
+                    <a href="#">Peta Situs</a>
+                </div>
+                <div class="footer-right">
+                    <span><i class="fas fa-globe"></i> Bahasa Indonesia (ID)</span>
+                    <span><i class="fas fa-rupiah-sign"></i> IDR</span>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
